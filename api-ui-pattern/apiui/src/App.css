@@ -5,19 +5,22 @@
   width: 500px;
   height: 500px;
   grid-template-columns: 50px 1fr 50px;
+  border-radius: 25px;
 }
 .boxes {
 border: 20px;
 display: grid;
 grid-template-rows: 350px 1fr;
+border-radius: 25px;
 
 }
 
 .pokeName {
   
-background-color: greenyellow;
+background-color: aqua;
 text-align: center;
 font-size: 50px;
+text-decoration: bold;
 
 
 }
@@ -27,4 +30,9 @@ background-color: aqua;
 img {
 height: 200px;
 margin: 75px 20px 20px 75px
+}
+
+ button {
+background-color: aqua;
+border-radius: 25px;
 }
